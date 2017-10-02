@@ -6,7 +6,9 @@
     "start": "webpack-dev-server --config webpack.config.js --hot --progress --colors --port 3000",
     "test": "karma start",
     "lint": "tslint \"lib/**/*.ts\"",
-    "e2e": "./node_modules/protractor/bin/webdriver-manager update && protractor"
+    "e2e": "./node_modules/protractor/bin/webdriver-manager update && protractor",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "pre-commit": [
     "lint",
@@ -83,6 +85,8 @@
     "webdriver-manager": "10.2.3",
     "webpack": "1.13.0",
     "webpack-dev-server": "1.14.1",
-    "webpack-merge": "0.14.0"
-  }
+    "webpack-merge": "0.14.0",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
