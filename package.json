@@ -34,7 +34,7 @@
     "@types/lodash": "4.14.39",
     "core-js": "2.4.1",
     "jquery": "3.1.1",
-    "lodash": "4.16.4",
+    "lodash": "4.17.12",
     "moment": "2.17.1",
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.0-beta.12",
@@ -57,12 +57,12 @@
     "html-webpack-plugin": "2.15.0",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.7.0",
-    "karma": "1.2.0",
+    "karma": "2.0.0",
     "karma-jasmine": "1.0.2",
     "karma-mocha-reporter": "2.2.1",
     "karma-phantomjs-launcher": "1.0.2",
     "karma-sourcemap-loader": "0.3.7",
-    "karma-webpack": "1.8.0",
+    "karma-webpack": "2.0.10",
     "mocha": "3.1.2",
     "node-sass": "4.2.0",
     "null-loader": "0.1.1",
@@ -83,6 +83,6 @@
     "webdriver-manager": "10.2.3",
     "webpack": "1.13.0",
     "webpack-dev-server": "1.14.1",
-    "webpack-merge": "0.14.0"
+    "webpack-merge": "1.0.0"
   }
 }
